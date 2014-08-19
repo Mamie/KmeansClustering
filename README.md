@@ -9,6 +9,7 @@ In the first part of the program, the K-means clustering algorithm is implemente
 
 Completed methods are summarized below:
 
+pca.m - Perform principal component analysis <br\ >
  projectData.m - Projects a data set into a lower dimensional space <br\ >
  recoverData.m - Recovers the original data from the projection <br\ >
  findClosestCentroids.m - Find closest centroids (used in K-means) <br\ >

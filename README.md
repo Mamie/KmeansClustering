@@ -28,6 +28,8 @@ Starter codes are listed below:
 
 #### Principle component analysis
 
+principal component analysis (PCA) is performed for dimensionality reduction on a 5000 face image dataset. After computing the covariance matrix, SVD is used to compute the principal components. The principle components then can be used to reduce the feature dimension of dataset by projecting each example onto a lower dimensional space.
+
 Completed methods are summarized below:
  pca.m - Perform principal component analysis <br\ >
  projectData.m - Projects a data set into a lower dimensional space <br\ >

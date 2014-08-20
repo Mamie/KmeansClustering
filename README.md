@@ -5,9 +5,13 @@ This is week 7 assignment of [Coursera Machine Learning] (http://www.coursera.or
 
 Summary
 ------
-In the first part of the program, the K-means clustering algorithm is implemented and applied to compress an image. In the second part, principal component analysis is performed to find a low-dimensional representation of face images.
+In the first part of this program, the K-means clustering algorithm is implemented and applied to compress an image. In the second part, principal component analysis is performed to obtain a low-dimensional representation of face images.
 
 #### K-means Clustering
+
+K-means clustering is an unsupervised learning algorithm that automatically clusters similar data examples together. After random initialization, two step were repeatedly carried out: (i) Assigning each training example x to its closest centroid, and (ii) Recomputing the mean of each centroid using the points assigned to it. To minimize the distortion, multiple random initializations is implemented. Regular 24-bit representation of color image is compressed by reducing the number of colors to 16 colors that best clusters the pixels in three-dimensional RGB space.
+
+
 Completed methods are summarized below:
 
  findClosestCentroids.m - Find closest centroids (used in K-means) <br\ >
